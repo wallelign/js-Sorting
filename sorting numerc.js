@@ -5,3 +5,5 @@ const point=points.sort(function (a,b) {
 });
  const rev=point.reverse();
 console.log(point);
+document.getElementById('demo').innerHTML=point;
+
